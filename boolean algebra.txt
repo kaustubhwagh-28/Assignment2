@@ -1,5 +1,5 @@
 Q1)What are the possible values a boolean variable can take?
-A1)The possible values a boolean variable can take are true or false.
+A1)The possible values a boolean variable can take is true or false.
 
 Q2)What are the values a boolean expression can resolve to?
 A2)A boolean expression can resolve to TRUE or False.

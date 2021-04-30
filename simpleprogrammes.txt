@@ -1,0 +1,19 @@
+6)In the simple interest program, in the expression keep an int to the left and all floats to the right. Why does the program not compile.
+Points to ponder: What are narrowing conversions?
+In the simple interest programme.when we keep int on left and float on right.we should do narrow conversion.for doing narrow conversion we 
+should write(int) before the expression.it should be done explicitly.A narrowing conversion changes a value to a data type that might not be 
+able to hold some of the possible values
+for eg converting float to int.
+eg converting 50.5 to int.we can only save 50 in int.
+
+8)Write a program that has the following declaraion:  byte b = 09;
+Points to ponder: How do you define numbers of base 16 (Hex) and numbers of base 8 in Java?
+hexadecimal numbers are written by placing 0x before them. For example, 0x100 means 'the hexadecimal number 100' (=256 in decimal).
+Literals with a leading zero are octal literals. Any number prefixed with a 0 is considered octal. Octal numbers can only use digits 0-7.
+
+9)With reference to the program where PI id defined as a constant. What is the naming convention of the constant variable?
+to define variable as constant in java.we use final .the naming convention followed is that the name should be in the uppercase with the underscore separating the word.
+I have defined it as P_I.
+
+Modify the above question defining PI as a constant. What are the advantages of using constants rather than hard-coding string literals in the code?
+if we have to make changes we can make the change in single place if we are using final.but if we are using hard-coding we have to change it all positions

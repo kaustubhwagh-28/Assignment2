@@ -1,0 +1,32 @@
+8)What do you mean by nesting? What are the rules related to nested blocks of code?
+Upto what level can blocks be nested?
+A8)In programming nesting is when information is organized in layer.It reduces the amount of code needed, while making it simple for 
+a programmer to debug and edit. Different types of construct can be nested within another. For example, selection can be nested within 
+a condition-controlled loop.
+Nested block of code should not be left empty.there should not be any unreached code.
+There is no depth limit for a nested loop.
+It would be according to the demand of a specific program.
+
+9)Can you write a switch case based on the value of a string variable?
+In a switch statement, can default be placed at the top instead of at the bottom? Why is it usually placed at the top?
+ What do you understand by idioms in a programming language?
+A9)We can write a switch case based on the value of a string variable.Comparison of Strings in switch statement is case sensitive.
+we can place default anywhere in the switch statement.
+default is mostly written at the bottom.Adding a 'default' label at the end of every 'switch' statement makes the code clearer and 
+guarantees that any possible case where none of the labels matches the value of the control variable will be handled.
+A programming idiom is the usual way to code a task in a specific language. For example a loop is often written like this in C
+for (i=0; i<10; i++)
+in php we will write it like this
+for ($i = 1; $i <= 10; $i++)
+
+7)Provide your comments on this code:
+if ( i<50 && i>100 ) System.out.println(“Hello”);
+In the above expression, the if statement did not have braces. When should braces be put? when can they be avoided?
+braces plays a vital role when we are using logical operator we should use it when we have many conditions.it is more readible.in this case it will work fine even without braces
+eg if we want to print hello if the number is between 50 to 100 or from 200 to 250
+then it would be
+if((no>=50 && no<=100) || (no >= 200 && no<=250))
+{
+System.out.println("Hello");
+}
+in this the braces becomes very important.the compiler first do the evaluation of first expression and the desired result is obtained.

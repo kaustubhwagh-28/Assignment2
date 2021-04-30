@@ -1,0 +1,29 @@
+Q1)What are the possible values a boolean variable can take?
+A1)The possible values a boolean variable can take are true or false.
+
+Q2)What are the values a boolean expression can resolve to?
+A2)A boolean expression can resolve to TRUE or False.
+
+Q3)3.	What is the difference between the following sets of operators:
+a.	&& , &
+b.	|| , |
+Which of these is called the short circuit operators?
+A3) difference between && and &
+both the operator performs the same work and will give the same result .but when we use the && it saves a lot of time .AND operator will be false if one value is false.
+eg if((4 > 5) && (7 > 6))
+as the first expression is false so the result will be false.the && opeartor will not not check the second expression.but if we are using the & operator.it will check the result 
+of second expression.Thus && saves time.
+Same is the case with || and |.if the first expression is true || operator will assign true value.
+the && and || are short circuit operators
+
+Q5)What are the most common situations where the circuit operators are used?
+A5)Circuit operators are generally used when we have to check the conditions.like in the programme of grades i have used the && operator to gove the grades according to the marks obtained.
+e.g if we have to assign grade D for marks 35 to 49 only then we can use && operator .
+if(marks > 35 && marks < 49)
+we used && here because we want both the condition to be satisfied.
+
+Q6)In a program, typically where are boolean expressions used?
+boolean expression are used with conditional statement in programming.
+
+Q7)Does java have support for a ‘boolean’ data type?
+A7)the boolean is a primitive data type in java which can take the value true or false.
